@@ -1,0 +1,65 @@
+Epoch: [0]  [   50/39429]  eta: 4:54:27  lr: 0.000100  class_error: 100.00  loss: 39.6680 (40.5918)
+loss_ce: 0.9735 (1.0054)  loss_bbox: 1.5598 (1.6917)  loss_giou: 1.4550 (1.4710)
+
+ loss_ce_0: 0.9806 (0.9973)  loss_bbox_0: 1.6745 (1.8091)  loss_giou_0: 1.4647 (1.4768)
+ loss_ce_1: 0.9851 (1.0022)  loss_bbox_1: 1.6164 (1.7731)  loss_giou_1: 1.4369 (1.4708)
+ loss_ce_2: 0.9745 (1.0157)  loss_bbox_2: 1.5817 (1.7467)  loss_giou_2: 1.4516 (1.4710)
+ loss_ce_3: 0.9816 (1.0075)  loss_bbox_3: 1.5990 (1.7246)  loss_giou_3: 1.4546 (1.4704)
+ loss_ce_4: 0.9653 (1.0085)  loss_bbox_4: 1.5627 (1.7059)  loss_giou_4: 1.4533 (1.4715)
+
+
+这三个loss是去噪任务的loss
+tgt_loss
+tgt_loss_bbox
+tgt_loss_giou
+
+ tgt_loss_ce: 0.8750 (0.9032)  tgt_loss_bbox: 0.6877 (0.7822)  tgt_loss_giou: 0.9821 (0.9600)
+ tgt_loss_ce_0: 0.8137 (0.8198)  tgt_loss_bbox_0: 0.6643 (0.7449)  tgt_loss_giou_0: 0.8686 (0.8634)
+ tgt_loss_ce_1: 0.8242 (0.8355)  tgt_loss_bbox_1: 0.6633 (0.7498)  tgt_loss_giou_1: 0.8886 (0.8814)
+ tgt_loss_ce_2: 0.8558 (0.8704)  tgt_loss_bbox_2: 0.6669 (0.7566)  tgt_loss_giou_2: 0.9128 (0.9007)
+ tgt_loss_ce_3: 0.8694 (0.9013)  tgt_loss_bbox_3: 0.6743 (0.7649)  tgt_loss_giou_3: 0.9363 (0.9219)
+ tgt_loss_ce_4: 0.8968 (0.9023)  tgt_loss_bbox_4: 0.6809 (0.7733)  tgt_loss_giou_4: 0.9597 (0.9410)
+
+ loss_ce_unscaled: 0.9735 (1.0054)  class_error_unscaled: 100.0000 (78.1813)  loss_bbox_unscaled: 0.3120 (0.3383)
+ loss_giou_unscaled: 0.7275 (0.7355)  loss_xy_unscaled: 0.0915 (0.1038)  loss_hw_unscaled: 0.2142 (0.2346)
+ cardinality_error_unscaled: 294.6667 (293.8824)
+
+ loss_ce_0_unscaled: 0.9806 (0.9973)  loss_bbox_0_unscaled: 0.3349 (0.3618)  loss_giou_0_unscaled: 0.7323 (0.7384)
+ loss_xy_0_unscaled: 0.0981 (0.1050)  loss_hw_0_unscaled: 0.2410 (0.2569)
+ cardinality_error_0_unscaled: 294.6667 (293.8824)
+
+ loss_ce_1_unscaled: 0.9851 (1.0022)  loss_bbox_1_unscaled: 0.3233 (0.3546)  loss_giou_1_unscaled: 0.7184 (0.7354)
+ loss_xy_1_unscaled: 0.0953 (0.1046)  loss_hw_1_unscaled: 0.2316 (0.2500)
+ cardinality_error_1_unscaled: 294.6667 (293.8824)
+
+ loss_ce_2_unscaled: 0.9745 (1.0157)  loss_bbox_2_unscaled: 0.3163 (0.3493)  loss_giou_2_unscaled: 0.7258 (0.7355)
+ loss_xy_2_unscaled: 0.0954 (0.1043)  loss_hw_2_unscaled: 0.2291 (0.2451)
+ cardinality_error_2_unscaled: 294.6667 (293.8824)
+
+ loss_ce_3_unscaled: 0.9816 (1.0075)  loss_bbox_3_unscaled: 0.3198 (0.3449)  loss_giou_3_unscaled: 0.7273 (0.7352)
+ loss_xy_3_unscaled: 0.0927 (0.1038)  loss_hw_3_unscaled: 0.2224 (0.2411)
+ cardinality_error_3_unscaled: 294.6667 (293.8824)
+
+ loss_ce_4_unscaled: 0.9653 (1.0085)  loss_bbox_4_unscaled: 0.3125 (0.3412)  loss_giou_4_unscaled: 0.7267 (0.7358)
+ loss_xy_4_unscaled: 0.0913 (0.1046)  loss_hw_4_unscaled: 0.2181 (0.2366)
+ cardinality_error_4_unscaled: 294.6667 (293.8824)
+
+ tgt_loss_ce_unscaled: 0.8750 (0.9032)  tgt_class_error_unscaled: 100.0000 (78.1813)
+ tgt_loss_bbox_unscaled: 0.1375 (0.1564)  tgt_loss_giou_unscaled: 0.4911 (0.4800)
+
+ tgt_loss_ce_0_unscaled: 0.8137 (0.8198)  tgt_class_error_0_unscaled: 85.7143 (75.0651)
+ tgt_loss_bbox_0_unscaled: 0.1329 (0.1490)  tgt_loss_giou_0_unscaled: 0.4343 (0.4317)
+
+ tgt_loss_ce_1_unscaled: 0.8242 (0.8355)  tgt_class_error_1_unscaled: 85.7143 (75.0122)
+ tgt_loss_bbox_1_unscaled: 0.1327 (0.1500)  tgt_loss_giou_1_unscaled: 0.4443 (0.4407)
+
+ tgt_loss_ce_2_unscaled: 0.8558 (0.8704)  tgt_class_error_2_unscaled: 91.6667 (76.6150)
+ tgt_loss_bbox_2_unscaled: 0.1334 (0.1513)  tgt_loss_giou_2_unscaled: 0.4564 (0.4503)
+
+ tgt_loss_ce_3_unscaled: 0.8694 (0.9013)  tgt_class_error_3_unscaled: 94.4444 (82.3955)
+ tgt_loss_bbox_3_unscaled: 0.1349 (0.1530)  tgt_loss_giou_3_unscaled: 0.4682 (0.4610)
+
+ tgt_loss_ce_4_unscaled: 0.8968 (0.9023)  tgt_class_error_4_unscaled: 100.0000 (80.8223)
+ tgt_loss_bbox_4_unscaled: 0.1362 (0.1547)  tgt_loss_giou_4_unscaled: 0.4798 (0.4705)
+
+ time: 0.3834  data: 0.0068  max mem: 4268
