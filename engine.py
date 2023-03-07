@@ -29,7 +29,7 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
         need_tgt_for_training = False
 
     model.train()
-    # 这个也要train一下
+  
     criterion.train()
 
     metric_logger = utils.MetricLogger(delimiter="  ")
